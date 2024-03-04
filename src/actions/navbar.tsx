@@ -4,7 +4,7 @@ import { SignInButton, UserButton, currentUser } from "@clerk/nextjs";
 
 import { Button } from "@/components/ui/button";
 
-export const Actions = async () => {
+export const NavBarActions = async () => {
   const user = await currentUser();
 
   return (
